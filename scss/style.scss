@@ -14,9 +14,88 @@ $bodyCopy: 15px;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  // border: 1px solid red;
 }
 
 html {
   font-size: 100%;
   line-height: 1.3;
+}
+body {
+  font-family: $primaryFont;
+}
+main {
+  display: grid;
+  justify-content: center;
+  gap: 3em;
+  padding: 5em 2em;
+}
+.intro {
+  text-align: center;
+  p {
+    color: $darkGrayishMagenta;
+    line-height: 1.8;
+  }
+}
+.title {
+  color: $veryDarkMagenta;
+  font-size: 2rem;
+  letter-spacing: -1.14px;
+  margin-bottom: 0.781em;
+}
+.ratings__card {
+  display: flex;
+  justify-content: center;
+  background-color: $lightGrayishMagenta;
+  border-radius: 8px;
+  color: $veryDarkMagenta;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  margin-bottom: 1.23em;
+  padding: 3.5em 0em 1em;
+  position: relative;
+  &::before {
+    content: "";
+    width: 100px;
+    height: 20px;
+    background: url(../images/icon-star.svg) space;
+    position: absolute;
+    top: 15px;
+  }
+  &:last-of-type {
+    margin-bottom: 0px;
+  }
+}
+.review__card {
+  background-color: $veryDarkMagenta;
+  border-radius: 8px;
+  color: $white;
+  line-height: 1.6;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding: 3em 2.6em;
+  margin-bottom: 1.23em;
+  &:last-of-type {
+    margin-bottom: 0px;
+  }
+}
+.name {
+  font-weight: bold;
+}
+.status {
+  color: $softPink;
+  font-weight: 400;
+}
+.quote {
+  line-height: 1.8;
+}
+.review__card__image {
+  border-radius: 50%;
+  height: 40px;
+  margin-right: 1.5em;
+}
+.review__card__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.85em;
 }
