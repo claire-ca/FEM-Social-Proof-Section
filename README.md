@@ -25,12 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot/mobile.png)
+![](./screenshot/desktop.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/social-proof-section-built-with-flexbox-grid-and-sass-v6kZXG56h](https://www.frontendmentor.io/solutions/social-proof-section-built-with-flexbox-grid-and-sass-v6kZXG56h)
+- Live Site URL: [https://fem-social-proof-section-xi.vercel.app/](https://fem-social-proof-section-xi.vercel.app/)
 
 ## My process
 
